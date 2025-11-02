@@ -1,17 +1,18 @@
-@import url(style/reset.css);
-@import url(style/basic.css);
-@import url(style/variables.css);
-@import url(style/header.css);
-@import url(style/hero.css);
-@import url(style/mob.css);
-@import url(style/advantage.css);
-@import url(style/numbers.css);
-@import url(style/reviews.css);
-@import url(style/contact.css);
-@import url(style/numbers__page.css);
-@import url(style/saler.css);
-@import url(style/modal.css);
-@import url(style/footer.css);
+@import url(css/reset.css);
+@import url(css/basic.css);
+@import url(css/variables.css);
+@import url(css/header.css);
+@import url(css/hero.css);
+@import url(css/mob.css);
+@import url(css/advantage.css);
+@import url(css/numbers.css);
+@import url(css/reviews.css);
+@import url(css/contact.css);
+@import url(css/numbers__page.css);
+@import url(css/saler.css);
+@import url(css/modal.css);
+@import url(css/footer.css);
+
 
 
 
