@@ -2,7 +2,7 @@
 @import url(style/basic.css);
 @import url(style/variables.css);
 @import url(style/header.css);
-@import url(style/vhero.css);
+@import url(style/hero.css);
 @import url(style/mob.css);
 @import url(style/advantage.css);
 @import url(style/numbers.css);
@@ -12,6 +12,7 @@
 @import url(style/saler.css);
 @import url(style/modal.css);
 @import url(style/footer.css);
+
 
 
 
