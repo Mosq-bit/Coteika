@@ -3,7 +3,7 @@
 }
 .saler__wrapper {
   padding: 78px 0 78px;
-  background-image: url(/images/saler__bbg.jpg);
+  background-image: url(/Coteika/images/saler__bbg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -242,4 +242,5 @@
 
    
   }
+
 }
