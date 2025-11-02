@@ -1,0 +1,38 @@
+/* Стили для мобильного меню */
+.mob__menu {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1000;
+}
+
+.mob__menu span {
+  display: block;
+  height: 3px;
+  width: 100%;
+  background-color: #333;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+@media (max-width: 768px) {
+  .mob__menu {
+    display: flex;
+  }
+  /* Анимация бургер-меню */
+  .mob__menu.active span:nth-child(1) {
+    transform: rotate(45deg) translate(6px, 6px);
+  }
+  
+  .mob__menu.active span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .mob__menu.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
+  }
+}
+

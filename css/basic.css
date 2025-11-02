@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--tekst);
+}
+
+
+.container{
+    max-width: 1190px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.title {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 0;
+}

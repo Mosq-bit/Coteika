@@ -1,0 +1,165 @@
+.advantage {
+  position: relative;
+  padding-top: 140px; 
+}
+
+.advantage::before {
+  position: absolute;
+  content: url(/images/advantage/paw.png);
+  top: 5%;
+  right: -2%;
+  z-index: -1;
+
+}
+
+.advantage__title {
+
+}
+
+.advantage__cards {
+  position: relative;
+  z-index: 1; 
+  margin-top: 50px; 
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.advantage__card {
+  flex: 1 1 350px;
+  max-width: 370px;
+  min-width: 280px;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 25px 0 rgba(208, 208, 208, 0.25);
+  background: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.advantage__card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 35px 0 rgba(208, 208, 208, 0.4);
+}
+
+.advantage__card-img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.advantage__card-title {
+  margin-top: 25px; 
+  font-family: var(--second-family);
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 140%;
+  margin-bottom: 15px;
+}
+
+.advantage__card-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  margin: 0;
+}
+
+
+@media (max-width: 1024px) {
+  .advantage {
+    padding-top: 60px;
+  }
+  
+  .advantage__title {
+    font-size: 32px;
+  }
+  
+  .advantage__cards {
+    margin-top: 40px;
+    gap: 25px;
+  }
+  
+  .advantage__card {
+    flex: 1 1 320px;
+    padding: 25px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .advantage {
+    padding-top: 40px;
+  }
+  
+  .advantage::before {
+    display: none;
+   
+  }
+  
+  .advantage__title {
+    font-size: 28px;
+    padding: 0 20px;
+  }
+  
+  .advantage__cards {
+    margin-top: 30px;
+    gap: 20px;
+    padding: 0 15px;
+  }
+  
+  .advantage__card {
+    flex: 1 1 100%;
+    max-width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .advantage__card-title {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  .advantage__card-text {
+    font-size: 15px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .advantage {
+    padding-top: 30px;
+  }
+  
+  .advantage__title {
+    font-size: 24px;
+  }
+  
+  .advantage__cards {
+    margin-top: 25px;
+    gap: 15px;
+  }
+  
+  .advantage__card {
+    padding: 15px;
+  }
+  
+  .advantage__card-title {
+    font-size: 18px;
+    margin-top: 15px;
+  }
+  
+  .advantage__card-text {
+    font-size: 14px;
+  }
+}
+
+
+@media (min-width: 1440px) {
+  .advantage {
+    padding-top: 160px;
+  }
+  
+  .advantage__cards {
+    justify-content: space-between;
+  }
+}

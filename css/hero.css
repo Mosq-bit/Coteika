@@ -1,0 +1,278 @@
+.hero {
+  background-image: url(/images/котейка.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #f8f9fa; 
+  min-height: 600px; 
+}
+
+.hero__content {
+  padding: 80px 0 125px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 600px;
+}
+
+.hero__city {
+  font-size: 16px;
+  color: #666;
+}
+
+.hero__title {
+  margin-top: 25px;
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 1.1;
+  color: #333;
+}
+
+.hero__subtitle {
+  margin-top: 40px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #555;
+  max-width: 500px;
+}
+
+.hero__btn {
+  margin-top: 30px;
+  max-width: 205px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-radius: 25px;
+  padding: 12px 0 12px 30px;
+  box-shadow: 0 5px 25px 0 rgba(26, 33, 47, 0.1);
+  background: var(--belyy);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+}
+
+.hero__btn:hover {
+  transform: translateY(-2px); 
+  box-shadow: 0 7px 30px 0 rgba(26, 33, 47, 0.15);
+}
+
+.hero__link {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (max-width: 1024px) {
+  .hero {
+    background-size: cover;
+    background-position: right center;
+  }
+  
+  .hero__content {
+    padding: 60px 0 100px 80px;
+    min-height: 500px;
+  }
+  
+  .hero__title {
+    font-size: 52px;
+  }
+  
+  .hero__subtitle {
+    font-size: 18px;
+    max-width: 400px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .hero {
+    background-size: cover;
+    background-position: 70% center;
+    min-height: 500px;
+  }
+  
+  .hero__content {
+    padding: 50px 40px 80px 40px;
+    text-align: center;
+    align-items: center;
+    min-height: 500px;
+  }
+  
+  .hero__title {
+    font-size: 42px;
+    margin-top: 20px;
+  }
+  
+  .hero__subtitle {
+    font-size: 18px;
+    margin-top: 30px;
+    max-width: 100%;
+  }
+  
+  .hero__btn {
+    align-self: center;
+    padding: 10px 0 10px 25px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero {
+    min-height: 450px;
+    background-position: 75% center;
+  }
+  
+  .hero__content {
+    padding: 40px 30px 60px 30px;
+    min-height: 450px;
+  }
+  
+  .hero__title {
+    font-size: 36px;
+    margin-top: 15px;
+  }
+  
+  .hero__subtitle {
+    font-size: 16px;
+    margin-top: 25px;
+    line-height: 1.5;
+  }
+  
+  .hero__btn {
+    margin-top: 25px;
+    max-width: 180px;
+    padding: 10px 0 10px 20px;
+    font-size: 14px;
+    gap: 15px;
+  }
+  
+  .hero__city {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    min-height: 400px;
+    background-position: 80% center;
+  }
+  
+  .hero__content {
+    padding: 30px 20px 50px 20px;
+    min-height: 400px;
+  }
+  
+  .hero__title {
+    font-size: 32px;
+    margin-top: 10px;
+  }
+  
+  .hero__subtitle {
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  
+  .hero__btn {
+    margin-top: 20px;
+    max-width: 170px;
+    padding: 8px 0 8px 18px;
+    font-size: 13px;
+    gap: 12px;
+  }
+  
+  .hero__city {
+    font-size: 13px;
+  }
+}
+
+
+@media (max-width: 375px) {
+  .hero {
+    min-height: 380px;
+  }
+  
+  .hero__content {
+    padding: 25px 15px 40px 15px;
+    min-height: 380px;
+  }
+  
+  .hero__title {
+    font-size: 28px;
+  }
+  
+  .hero__subtitle {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  
+  .hero__btn {
+    max-width: 160px;
+    padding: 7px 0 7px 15px;
+    font-size: 12px;
+    gap: 10px;
+  }
+  
+  .hero__city {
+    font-size: 12px;
+  }
+}
+
+@media (max-height: 500px) and (orientation: landscape) {
+  .hero {
+    min-height: 350px;
+  }
+  
+  .hero__content {
+    min-height: 350px;
+    padding: 30px 40px 40px 40px;
+  }
+  
+  .hero__title {
+    font-size: 32px;
+    margin-top: 10px;
+  }
+  
+  .hero__subtitle {
+    font-size: 16px;
+    margin-top: 15px;
+  }
+  
+  .hero__btn {
+    margin-top: 20px;
+  }
+}
+
+
+@media (min-height: 800px) and (max-width: 768px) {
+  .hero {
+    min-height: 600px;
+  }
+  
+  .hero__content {
+    min-height: 600px;
+    padding: 80px 40px 100px 40px;
+  }
+  
+  .hero__title {
+    font-size: 48px;
+  }
+  
+  .hero__subtitle {
+    font-size: 20px;
+  }
+}
+
+
+@media (min-width: 1600px) {
+  .hero__content {
+    padding-left: 15%;
+  }
+  
+  .hero__subtitle {
+    max-width: 600px;
+  }
+}
+
+
+
