@@ -5,7 +5,7 @@
 
 .advantage::before {
   position: absolute;
-  content: url(/images/advantage/paw.png);
+  content: url(/Coteika/images/advantage/paw.png);
   top: 5%;
   right: -2%;
   z-index: -1;
@@ -162,4 +162,5 @@
   .advantage__cards {
     justify-content: space-between;
   }
+
 }
