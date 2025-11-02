@@ -41,7 +41,7 @@
 }
 .modal__content::after {
   position: absolute;
-  content: url(/images/form__paw.png);
+  content: url(/Coteika/images/form__paw.png);
 
   top: 0;
   left: 2%;
@@ -377,3 +377,4 @@
     animation: none;
   }
 }
+
