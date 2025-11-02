@@ -5,7 +5,7 @@
 
 .reviews::before {
   position: absolute;
-  content: url(/images/paw-left.png);
+  content: url(/Coteika/images/paw-left.png);
   top: -6%;
   right: 0%;
   z-index: -1;
@@ -368,3 +368,4 @@
     font-size: 16px;
   }
 }
+
